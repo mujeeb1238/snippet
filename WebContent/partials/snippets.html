@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="row">
+		<div>
+				<div class="quotesBlock" ng-repeat="snippet in snippets.data track by $index">
+					<a href="#/delete/{{$index}}" class="btn btn-danger top-right-button pull-right" ng-click="delete($event)">Delete</a>
+					<a href="#/edit/{{$index}}" class="btn btn-warning top-right-button pull-right">Edit</a>
+					<a href="#/create" class="btn btn-primary top-right-button pull-right">Add</a>
+					<h3>{{snippet.title}}</h3>
+					<p>{{snippet.description}}</p>
+					
+				</div>			
+		</div>
+	</div>
+</div>

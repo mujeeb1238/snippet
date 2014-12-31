@@ -1,0 +1,31 @@
+{
+  "name": "snippet",
+  "version": "0.0.1",
+  "authors": [
+    "rahman38 <rahman38@hugotechnologies.com>"
+  ],
+  "description": "snippet app for snippet collection where user can create update and delete his/her snippet collection",
+  "main": "index.html",
+  "keywords": [
+    "snippet",
+    "or",
+    "todo",
+    "application"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.2.x",
+    "angular-mocks": "~1.2.x",
+    "angular-route": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "bootstrap": "~3.1.1"
+  }
+}
